@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2022-08-27T06:13:47.149Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.7" etag="LgYq8uKh9g5DifOQpgzr" type="github"><diagram id="rEcTZZrMIY3FYnk7mFHA">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-30T02:27:25.181Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="R-lhh3ink_CbKUeBi7Gd" version="20.2.7" type="github">
+  <diagram id="rEcTZZrMIY3FYnk7mFHA" name="第 1 页">
+    <mxGraphModel dx="1178" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yTyj0W4T9nIZBlSaKFFE-36" value="" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=20;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="159" y="309" width="537" height="438" as="geometry" />
+        </mxCell>
+        <mxCell id="yTyj0W4T9nIZBlSaKFFE-41" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;租赁委托UI&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;[React]&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="211" y="346" width="76" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yTyj0W4T9nIZBlSaKFFE-48" value="&lt;font color=&quot;#000000&quot;&gt;Http 请求&lt;br&gt;JSON&lt;br&gt;&lt;/font&gt;" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontFamily=Times New Roman;fontSize=14;fontColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="52" y="373" as="sourcePoint" />
+            <mxPoint x="212" y="373" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yTyj0W4T9nIZBlSaKFFE-50" value="dispatch&lt;br&gt;/ update" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yTyj0W4T9nIZBlSaKFFE-41">
+          <mxGeometry x="-0.0647" y="-11" width="80" relative="1" as="geometry">
+            <mxPoint x="351" y="453" as="sourcePoint" />
+            <mxPoint x="431" y="453" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yTyj0W4T9nIZBlSaKFFE-51" value="&lt;font face=&quot;Times New Roman&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Model&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;[Redux]&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="401" y="455" width="76" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yTyj0W4T9nIZBlSaKFFE-53" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="yTyj0W4T9nIZBlSaKFFE-51" target="yTyj0W4T9nIZBlSaKFFE-54">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="439" y="515" as="sourcePoint" />
+            <mxPoint x="444" y="598" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yTyj0W4T9nIZBlSaKFFE-54" value="&lt;font face=&quot;Times New Roman&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Service&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;[Axios]&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="401" y="641" width="76" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yTyj0W4T9nIZBlSaKFFE-56" value="Http 请求&lt;br&gt;JSON" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry x="0.2294" y="-9" relative="1" as="geometry">
+            <mxPoint x="470" y="677.5" as="sourcePoint" />
+            <mxPoint x="710" y="664.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yTyj0W4T9nIZBlSaKFFE-57" value="&lt;font face=&quot;Times New Roman&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;BFF&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;[Node]&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="707" y="639" width="76" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yTyj0W4T9nIZBlSaKFFE-58" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;房屋寻租UI&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;[React]&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF0080;" vertex="1" parent="1">
+          <mxGeometry x="227" y="493" width="76" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yTyj0W4T9nIZBlSaKFFE-59" value="dispatch&lt;br&gt;/ update" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;" edge="1" parent="1" target="yTyj0W4T9nIZBlSaKFFE-51">
+          <mxGeometry x="0.0759" y="-28" width="80" relative="1" as="geometry">
+            <mxPoint x="305" y="496" as="sourcePoint" />
+            <mxPoint x="425" y="576" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yTyj0W4T9nIZBlSaKFFE-65" value="" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=20;dashed=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=none;strokeColor=#A9C4EB;strokeWidth=7;" vertex="1" parent="1">
+          <mxGeometry x="203" y="322" width="110" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="yTyj0W4T9nIZBlSaKFFE-69" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="yTyj0W4T9nIZBlSaKFFE-70">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="102" y="558" as="sourcePoint" />
+            <mxPoint x="262" y="578" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yTyj0W4T9nIZBlSaKFFE-70" value="&lt;font color=&quot;#ffffff&quot;&gt;Vant UI&lt;br style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;[领域逻辑组件]&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="217" y="661" width="76" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yTyj0W4T9nIZBlSaKFFE-71" value="&amp;lt;&amp;lt;structured&amp;gt;&amp;gt;" style="dashed=1;rounded=1;absoluteArcSize=1;arcSize=20;html=1;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;fontFamily=Times New Roman;fontSize=14;fontColor=#FFFFFF;strokeColor=#00CC00;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="171" y="309.5" width="202" height="427" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
